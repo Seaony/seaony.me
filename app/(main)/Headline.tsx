@@ -26,7 +26,7 @@ function Designer() {
         <span className="absolute -bottom-[3.5px] -left-[3.5px] size-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
         <span className="absolute -right-[3.5px] -top-[3.5px] size-1.5 border border-lime-700 bg-zinc-50 dark:border-lime-400" />
       </span>
-      设计师
+      产品设计师
     </span>
   )
 }
@@ -44,7 +44,7 @@ function Founder() {
   return (
     <span className="group inline-flex items-center">
       <UserSecurityIcon className="mr-1 inline-flex group-hover:fill-zinc-600/20 dark:group-hover:fill-zinc-200/20" />
-      <span>创始人</span>
+      <span>养了两只猫</span>
     </span>
   )
 }
@@ -64,8 +64,8 @@ export function Headline() {
         }}
       >
         <Developer />，<Designer />，
-        <span className="block h-2" />
-        <OCD />，<Founder />
+        <span className="block h-2 mb-2" />
+        <OCD />，<Founder />。
       </motion.h1>
       <motion.p
         className="mt-6 text-base text-zinc-600 dark:text-zinc-400"
@@ -80,9 +80,8 @@ export function Headline() {
         }}
       >
         <Balancer>
-          我是 Cali，
-          <PeekabooLink href="https://zolplay.com">佐玩</PeekabooLink>
-          创始人，目前带领着佐玩致力于创造一个充满创造力的工作环境，同时鼓励团队创造影响世界的产品。
+          我是 Seaony，
+          目前就职于 <PeekabooLink href="https://artefacts.ai">Artefacts.AI</PeekabooLink>。
           我热爱开发，设计，创新，享受生活，以及在未知领域中探索。
         </Balancer>
       </motion.p>
